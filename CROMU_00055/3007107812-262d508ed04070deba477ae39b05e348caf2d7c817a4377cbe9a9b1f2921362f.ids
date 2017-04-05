@@ -1,0 +1,2 @@
+alert (name:"happy bytes"; side:client; regex:"[^\xc0-\xcf]*[\xc0-\xcf]";)
+alert (name:"not the flagz ur lookin 4"; side:client; match:"GC"; replace:"GZ";)
